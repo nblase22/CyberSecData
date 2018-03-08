@@ -23,3 +23,5 @@ The program has the following requirements:
 * Sklearn
 * Keras
 * Tensorflow
+
+Language used is Python 3
