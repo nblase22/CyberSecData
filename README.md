@@ -4,6 +4,10 @@
 
 The programs contained herein create a machine learning model that predicts a login's success or failure based on Source User Domain, Logon Type, and Authentication Orientation.
 
+To create another version of the model, run auth_model_creation.ipynb.
+
+To simply run the existing model, run the code in AuthModelRun.ipynb. Note that this requires acces to auth_model_trained.h5, label_encoder.pkl, and vectorizer.pkl as well as a test dataset. An example tester can be found in the CSVs folder labeled tester.csv.
+
 The data set can be found here:
 <https://csr.lanl.gov/data/cyber1/>
 
